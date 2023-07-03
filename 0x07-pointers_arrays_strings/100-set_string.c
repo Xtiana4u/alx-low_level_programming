@@ -3,11 +3,10 @@
 /**
  * set_string - Entry point
  * @s: input
- * @to input
- * Return: Always 0 (Success)
+ * @to: input
+ * Return: Always (Success)
  */
 void set_string(char **s, char *to)
 {
 	*s = to;
 }
-
